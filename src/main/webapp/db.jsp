@@ -78,3 +78,5 @@ databas
       if (conn != null) try { conn.close(); } catch (SQLException ignore) {}
   }
 %>
+
+<p>Established connection to RDS. Read first two rows: <%= results %></p>
